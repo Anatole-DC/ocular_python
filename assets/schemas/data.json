@@ -1,0 +1,85 @@
+{
+    "videos": "sftp://ocular.video.server/basketball_game_high_angle.mp4",
+    "constants": {
+        "players": {
+            "uid_player1": {
+                "label": "",
+                "team": "uid_team1"
+            },
+            "uid_player2": {
+                "label": "",
+                "team": "uid_team2"
+            }
+        },
+        "teams": {
+            "uid_team1": {
+                "label": "Equipe 1"
+            },
+            "uid_team2": {
+                "label": "Equipe 2"
+            }
+        }
+    },
+    "frames": {
+        "1200": {
+            "teams": {
+                "uid_team1": {
+                    "score": 0,
+                    "fautes": 0
+                },
+                "uid_team2": {
+                    "score": 0,
+                    "fautes": 0
+                }
+            },
+            "players": {
+                "uid_player1": {
+                    "posture": [
+                        [
+                            0,
+                            5,
+                            3
+                        ],
+                        [
+                            1,
+                            17,
+                            1
+                        ]
+                    ],
+                    "position": [
+                        125,
+                        105
+                    ],
+                    "player_stats": {
+                        "score": 2,
+                        "passes": 0,
+                        "interceptions": 0,
+                        "contre": 0,
+                        "rebonds": 1
+                    },
+                    "bounding_box": [
+                        152, 25, 15, 485
+                    ]
+                }
+            },
+            "balls": {
+                "uid_ball1": {
+                    "position": [
+                        51,
+                        6854,
+                        6345
+                    ],
+                    "bounding_box": [
+                        123, 485, 115, 85
+                    ],
+                    "ball_carrier": "uid_player1"
+                }
+            }
+        }
+    },
+    "events": {
+        "1200": [
+            {"event": "score"}
+        ]
+    }
+}

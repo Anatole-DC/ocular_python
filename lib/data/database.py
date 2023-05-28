@@ -1,0 +1,9 @@
+class Database:
+    def __init__(self) -> None:
+        ...
+
+    def fetch(self):
+        ...
+
+    def write(self):
+        ...
